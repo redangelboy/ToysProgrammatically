@@ -9,6 +9,7 @@ import UIKit
 
 class toysProgrammaticallyTableViewCell: UITableViewCell {
     
+    
     lazy var progImageView: UIImageView = {
         let imageView = UIImageView(frame: .zero)
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -91,15 +92,7 @@ class toysProgrammaticallyTableViewCell: UITableViewCell {
         stackView.leadingAnchor.constraint(equalTo: self.progImageView.trailingAnchor, constant: 8).isActive = true
         stackView.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -8).isActive = true
         stackView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor, constant: -8).isActive = true
-        
-        
-//        self.progMidLabel.leadingAnchor.constraint(equalTo: self.progImageView.trailingAnchor, constant: 8).isActive = true
-//        self.progMidLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -8).isActive = true
-//        self.progMidLabel.centerYAnchor.constraint(equalTo: self.contentView.centerYAnchor).isActive = true
-        
-        
-        
-        
+                
     }
 }
 
